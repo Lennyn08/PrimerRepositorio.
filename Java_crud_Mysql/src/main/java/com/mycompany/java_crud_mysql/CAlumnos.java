@@ -60,7 +60,7 @@ public class CAlumnos {
         
         
         String consulta ="insert into Alumnos (nombres,apellidos) values (?,?);";
-        
+        // hola.
         try {
             
             CallableStatement cs = objetoConexion.estableceConexion().prepareCall(consulta);
